@@ -542,6 +542,9 @@ footer a:hover {
     display: none;
 }
 @media(max-width: 1200px) {
+    .footer_links{
+        display: none;
+    }
     .menu_item {
     padding-right: 20px;
 }
@@ -599,6 +602,12 @@ footer a:hover {
 .reasons_descr {
     width: 300px;
     margin-top: 20px;
+}
+@media(max-width:932px){
+.footer_mobile{
+    display: flex;
+    flex-direction: row;
+}
 }
 }@media(max-width: 767px) {
     .menu {
@@ -697,6 +706,12 @@ footer a:hover {
     background-color: #000;
 }
 }@media(max-width: 575px) {
+.footer_mobile{
+        display: none;
+    }
+    .footer_social{
+        display: none;
+    }
     .nav {
     height: 30px;
 }
